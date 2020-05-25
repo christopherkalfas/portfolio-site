@@ -2,6 +2,8 @@ import React from "react";
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from "../img/ChrisPhoto.jpeg";
 
+import Social from "../components/Social"
+
 const Home = () => {
     return(
         <div className="condiv home">
@@ -12,6 +14,7 @@ const Home = () => {
                 speed={100}
                 eraseDelay={700}    
             />
+            <Social />
         </div>
     )
 }

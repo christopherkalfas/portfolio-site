@@ -12,8 +12,7 @@ function App() {
       <Navbar />
         <Route exact path="/">
           <Home />
-        </Route>
-        
+        </Route>     
       </div>
     </Router>
   );
