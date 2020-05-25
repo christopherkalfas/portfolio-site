@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar"
 import Home from "./contents/Home"
 import About from "./contents/About"
 import Education from "./contents/Education"
+import Skills from "./contents/Skills"
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
         </Route>
         <Route exact path="/education">
           <Education />
-        </Route>             
+        </Route>
+        <Route exact path="/skills">
+          <Skills />
+        </Route>                  
       </div>
     </Router>
   );
