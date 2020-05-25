@@ -21,8 +21,27 @@ min-height: 100vh;
 /* .condiv class is for the right side content container*/
 .condiv {
 padding: 100px ;
-background-color: #f4f5f9;
+background-color: #F0F0F0;
 flex:var(--condiv-flex);
+}
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.profilepic
+{
+  border-radius: 50%;
+  width: 200px;
+  margin: 30px;
+}
+.typingeffect
+{
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
 }
 
 nav {
@@ -60,4 +79,15 @@ color: #9a9b9c;
 }
 .social i:hover {
 color: #ffffff;
+}
+
+.subtopic {
+  margin:10px 10px 30px 10px !important;
+  }
+p {
+  font-size: var(--fontsize-p);
+}
+
+h1,h2,h3,h4,p {
+  margin: 10px;
 }

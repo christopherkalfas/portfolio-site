@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from "./components/Navbar"
 import Home from "./contents/Home"
+import About from "./contents/About"
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <Navbar />
         <Route exact path="/">
           <Home />
-        </Route>     
+        </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>          
       </div>
     </Router>
   );

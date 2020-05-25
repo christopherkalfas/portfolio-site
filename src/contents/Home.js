@@ -11,7 +11,7 @@ const Home = () => {
             <ReactTypingEffect
                 className="typingeffect"
                 text={["Hello, world! I am Christopher Kalfas, I am a Full Stack Web Developer." ]}
-                speed={100}
+                speed={90}
                 eraseDelay={700}    
             />
             <Social />
