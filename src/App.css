@@ -109,9 +109,11 @@ h1,h2,h3,h4,p {
 }
 
 .nav-resume {
-  background-color: #e7e7e7; color: black;
+  background-color: #85adad
+  ;
   margin-bottom: 5px;
   padding: 10px ;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   
   flex:var(--condiv-flex);
 }
@@ -119,5 +121,11 @@ h1,h2,h3,h4,p {
   padding: 10px 21px;
   margin: 5px;
   font-size: 16px;
-  border-radius: 85%;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+.resume {
+  box-shadow: 0 3px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+

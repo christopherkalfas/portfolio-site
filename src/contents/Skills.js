@@ -15,7 +15,7 @@ class Skills extends Component {
                 <h2 className="subtopic">Development:</h2>
                     <ul>
                         {this.state.development.map((value, index)=>{
-                            return <li key={index}>{value}</li>
+                            return <li key={index}><h3>{value}</h3></li>
                         })}
                     </ul>
                     <br></br>
@@ -23,7 +23,7 @@ class Skills extends Component {
                     <h2 className="subtopic">Version Control & Developer Tools:</h2>
                     <ul>
                         {this.state.versionControlDevTools.map((value, index)=>{
-                            return <li key={index}>{value}</li>
+                            return <li key={index}><h3>{value}</h3></li>
                         })}
                     </ul>
             </div>

@@ -32,12 +32,12 @@ class Resume extends Component {
                         <button className="resume-btns" onClick={this.goToNextPage}>Next</button>
                     </div>
 
-                    <div style={{ width: 1100 }}>
+                    <div className="resume" style={{width: 1000 }}>
                         <Document
                             file={resume}
                             onLoadSuccess={this.onDocumentLoadSuccess}
                         >
-                            <Page pageNumber={pageNumber} width={1100} />
+                            <Page pageNumber={pageNumber} width={1000}  />
                         </Document>
                     </div>  
 
