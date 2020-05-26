@@ -61,6 +61,10 @@ nav ul {
 nav ul li {
   margin:40px;
 }
+a {
+  text-decoration: none;
+  color:#505050
+}
 
 .active {
 font-weight: bolder;
@@ -102,4 +106,18 @@ h1,h2,h3,h4,p {
   color: #1b1d20;
   background-color: #ffffff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.nav-resume {
+  background-color: #e7e7e7; color: black;
+  margin-bottom: 5px;
+  padding: 10px ;
+  
+  flex:var(--condiv-flex);
+}
+.resume-btns {
+  padding: 10px 21px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 85%;
 }
