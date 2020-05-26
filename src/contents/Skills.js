@@ -4,17 +4,26 @@ class Skills extends Component {
         super(props);
 
         this.state={
-            'myskills':['HTML','CSS','JavaSrcipt','Ruby','REACT','RAILS','SQL']
+            'development':['JavaSrcipt','Ruby','REACT','RAILS','SQL', "PostgreSQL",'HTML','CSS',"Bootstrap"],
+            "versionControlDevTools": ["GitHub", "BASH", "YARN", "VS Code","Heroku", "GitHub Pages", "Now", "Netlify"]
         };
     }
 
     render() {
         return (
             <div className="condiv skills">
-                <h1 className="subtopic">My Skills</h1>
+                <h2 className="subtopic">Development:</h2>
                     <ul>
-                        {this.state.myskills.map((value)=>{
-                            return <li>{value}</li>
+                        {this.state.development.map((value, index)=>{
+                            return <li key={index}>{value}</li>
+                        })}
+                    </ul>
+                    <br></br>
+
+                    <h2 className="subtopic">Version Control & Developer Tools:</h2>
+                    <ul>
+                        {this.state.versionControlDevTools.map((value, index)=>{
+                            return <li key={index}>{value}</li>
                         })}
                     </ul>
             </div>
