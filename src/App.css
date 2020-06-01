@@ -18,11 +18,41 @@ display: flex;
 width: 100vw;
 min-height: 100vh;
 }
+/* .picture{
+  max-height: 580px;
+  max-width: 800px;
+} */
+.alice-carousel ul li img{
+  height: 600px;
+  width: 90%;
+  display: block;
+}
+
+.alice-carousel__dots{
+  padding-top: 10px;
+  display: inline;
+}
+
+.alice-carousel__stage-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.alice-carousel__next-btn {
+  text-align: cen;
+}
+.alice-carousel__wrapper {
+  padding-top: 30px;
+  max-width: 800px;
+}
 /* .condiv class is for the right side content container*/
 .condiv {
-padding: 100px ;
-background-color: #F0F0F0;
-flex:var(--condiv-flex);
+  padding: 100px ;
+  flex:var(--condiv-flex);
+
+}
+.home-info {
+  padding-top: 20px;
 }
 .home
 {
@@ -47,8 +77,11 @@ flex:var(--condiv-flex);
 nav {
 padding:60px 30px 0px 30px ;
 flex:var(--sidebar-flex);
-background: rgb(174,238,178);
-background: radial-gradient(circle, rgba(174,238,178,1) 14%, rgba(148,206,233,1) 100%);
+background-image: url(./img/blue-abstract.jpg);
+/* background-repeat: no-repeat; */
+background-size: auto;
+background-position: right;
+
 }
 
 nav ul {
@@ -63,7 +96,7 @@ nav ul li {
 }
 a {
   text-decoration: none;
-  color:#505050
+  color: white
 }
 
 .active {
