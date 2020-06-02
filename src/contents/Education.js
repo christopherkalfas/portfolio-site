@@ -25,7 +25,7 @@ const Education = () => {
                 from="2009"
                 to="2013"
             />
-                        <Widecard 
+            <Widecard 
                 title="Diploma" 
                 where="Centennial High School"
                 from="2005"

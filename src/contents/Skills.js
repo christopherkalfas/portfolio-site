@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Skillscard from "../components/Skillscard"
 class Skills extends Component {
     constructor(props) {
         super(props);
@@ -12,18 +13,18 @@ class Skills extends Component {
     render() {
         return (
             <div className="condiv skills">
-                <h2 className="subtopic">Development:</h2>
-                    <ul>
+                <h1 className="subtopic">Development:</h1>
+                    <ul class="skills-ul">
                         {this.state.development.map((value, index)=>{
-                            return <li key={index}><h3>{value}</h3></li>
+                            return <li key={index}><Skillscard name={value}/></li>
                         })}
                     </ul>
                     <br></br>
 
-                    <h2 className="subtopic">Version Control & Developer Tools:</h2>
-                    <ul>
+                    <h1 className="subtopic">Version Control & Developer Tools:</h1>
+                    <ul class="skills-ul">
                         {this.state.versionControlDevTools.map((value, index)=>{
-                            return <li key={index}><h3>{value}</h3></li>
+                            return <li key={index}><Skillscard name={value}/></li>
                         })}
                     </ul>
             </div>
