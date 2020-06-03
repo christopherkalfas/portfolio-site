@@ -177,3 +177,33 @@ h1,h2,h3,h4,p {
   box-shadow: 0 3px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.project-container{
+  margin: 8px;
+  padding: 8px;
+}
+.project-card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin:30px;
+  border-radius: 5px;
+  width: 640px;
+  
+}
+
+.project-image {
+  border-radius: 5px 5px 0 0;
+  max-width: 640px;
+}
+
+.project-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content{
+  padding: 6px;
+  background-color: #B3BCBD;
+  border-radius: 0 0 5px 5px;
+  
+}
+
+
