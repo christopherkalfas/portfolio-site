@@ -23,8 +23,8 @@ min-height: 100vh;
   max-width: 800px;
 } */
 .alice-carousel ul li img{
-  height: 600px;
-  width: 90%;
+  height: 700px;
+  width: 100%;
   display: block;
 }
 
@@ -129,7 +129,9 @@ h1,h2,h3,h4,p {
   margin: 10px;
 }
 
-
+.contact-info{
+  color: #0074d9;
+}
 .widecard {
   border:0px solid #9a9b9c;
   display: flex;

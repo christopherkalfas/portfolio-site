@@ -22,6 +22,10 @@ const Gallery = () => {
         <img src={require("../img/cloud9cast.jpg")} onDragStart={handleOnDragStart} className="picture" alt="pic5"/>
         <img src={require("../img/car3.png")} onDragStart={handleOnDragStart} className="picture" alt="pic18"/>
         <img src={require("../img/sushi.png")} onDragStart={handleOnDragStart} className="picture" alt="pic20"/>
+        <img src={require("../img/fsu.jpg")} onDragStart={handleOnDragStart} className="picture" alt="pic21"/>
+        <img src={require("../img/urinetown.jpg")} onDragStart={handleOnDragStart} className="picture" alt="pic22"/>
+        <img src={require("../img/film.jpg")} onDragStart={handleOnDragStart} className="picture" alt="pic23"/>
+
         <img src={require("../img/grad.jpg")} onDragStart={handleOnDragStart} className="picture" alt="pic6"/>
         <img src={require("../img/wedding.jpg")} onDragStart={handleOnDragStart} className="picture" alt="pic11"/>
         <img src={require("../img/cloud9fam.jpg")} onDragStart={handleOnDragStart} className="picture" alt="pic7"/>
