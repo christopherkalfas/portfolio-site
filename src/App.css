@@ -23,7 +23,7 @@ min-height: 100vh;
   max-width: 800px;
 } */
 .alice-carousel ul li img{
-  height: 700px;
+  height: 640px;
   width: 100%;
   display: block;
 }
