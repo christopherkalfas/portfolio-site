@@ -15,7 +15,7 @@ const Home = () => {
                     className="typingeffect"
                     text={["Hello, world! I am Christopher Kalfas, I am a Full Stack Web Developer." ]}
                     speed={95}
-                    eraseDelay={700}    
+                    eraseDelay={20000}    
                 />
                 
                 <Social />
