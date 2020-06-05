@@ -23,8 +23,15 @@ min-height: 100vh;
   max-width: 800px;
 } */
 .alice-carousel ul li img{
-  height: 640px;
+  height: 500px;
   width: 100%;
+  object-fit: cover;
+}
+
+.alice-carousel img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
   display: block;
 }
 
@@ -43,7 +50,7 @@ min-height: 100vh;
 }
 .alice-carousel__wrapper {
   padding-top: 30px;
-  max-width: 800px;
+  max-width: 600px;
 }
 /* .condiv class is for the right side content container*/
 .condiv {
