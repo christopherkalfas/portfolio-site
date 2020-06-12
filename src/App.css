@@ -18,10 +18,7 @@ display: flex;
 width: 100vw;
 min-height: 100vh;
 }
-/* .picture{
-  max-height: 580px;
-  max-width: 800px;
-} */
+
 .alice-carousel ul li img{
   height: 500px;
   width: 100%;
@@ -135,7 +132,7 @@ p {
   font-size: var(--fontsize-p);
 }
 
-h1,h2,h3,h4,p {
+h1,h2,h3,h4,h5,p {
   margin: 10px;
 }
 

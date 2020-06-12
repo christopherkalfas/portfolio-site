@@ -6,7 +6,7 @@ class Skills extends Component {
 
         this.state={
             'development':['JavaSrcipt','Ruby','REACT','RAILS','SQL', "PostgreSQL",'HTML','CSS',"Bootstrap"],
-            "versionControlDevTools": ["GitHub", "BASH", "YARN", "VS Code","Heroku", "GitHub Pages", "Now", "Netlify"]
+            "versionControlDevTools": ["GitHub", "BASH", "YARN", "VS Code","Heroku","Firebase", "GitHub Pages", "Now", "Netlify"]
         };
     }
 
@@ -16,7 +16,7 @@ class Skills extends Component {
                 <h1 className="subtopic">Development:</h1>
                     <ul class="skills-ul">
                         {this.state.development.map((value, index)=>{
-                            return <li key={index}><Skillscard name={value}/></li>
+                            return <li key={index}><h5><Skillscard name={value}/></h5></li>
                         })}
                     </ul>
                     <br></br>
@@ -24,7 +24,7 @@ class Skills extends Component {
                     <h1 className="subtopic">Version Control & Developer Tools:</h1>
                     <ul class="skills-ul">
                         {this.state.versionControlDevTools.map((value, index)=>{
-                            return <li key={index}><Skillscard name={value}/></li>
+                            return <li key={index}><h5><Skillscard name={value}/></h5></li>
                         })}
                     </ul>
             </div>
