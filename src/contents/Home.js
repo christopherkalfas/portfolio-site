@@ -13,9 +13,12 @@ const Home = () => {
           
                 <ReactTypingEffect
                     className="typingeffect"
-                    text={["Hello, world! I'm Christopher Kalfas, a Full Stack Web Developer." ]}
+                    staticText={"Hello, world! I'm"}
+                    text={["Chris Kalfas.", "a full stack web developer.", "an artist.", "a creator.", "a friend.", "a partner.", "a cat dad.","5'10", "5'11, if I 'do' my hair.", "always growing.", "Batman."  ]}
                     speed={95}
-                    eraseDelay={20000}    
+                
+               
+                    eraseDelay={400}    
                 />
                 
                 <Social />
