@@ -1,5 +1,6 @@
 import React from 'react'
 import Jobcard from "../components/Jobcard"
+import Reference from '../components/Reference'
 
 const Experience = () => {
     return(
@@ -53,6 +54,36 @@ const Experience = () => {
                 location = "Tallahassee, FL"
                 dates = "2002 | 2007"
                 responsibility1 = "Took on various restaurant-specific roles during weekends and school sanctioned breaks in order to support family-owned business"
+            />
+            <h2 className="subtopic">
+                References
+            </h2>
+            <Reference
+                name="Roman Mangini"
+                position="Sr. Sales Mentor"
+                relationship="Roman was my direct manager"
+                company="Power Home Remodeling Group"
+                address="1740 Corporate Dr #800"
+                city="Norcross, GA 30093"
+                email="roman.mangini@powerhrg.com"
+            />
+            <Reference
+                name="Alejandro Arrese"
+                position="Regional Vice-President of Sales"
+                relationship="Alejandro was my direct supervisor"
+                company="Power Home Remodeling Group"
+                address="1740 Corporate Dr #800"
+                city="Norcross, GA 30093"
+                email="alejandro.arrese@powerhrg.com"
+            />
+           <Reference
+                name="Richard McNulty"
+                position="Bar Manager"
+                relationship="Richard was my direct manager "
+                company="The Gin Mill Restaurant & Bar"
+                address="442 Amsterdam Ave"
+                city="New York, NY 10024"
+                email="dickmcnulty504@gmail.com"
             />
         </div>
     )
