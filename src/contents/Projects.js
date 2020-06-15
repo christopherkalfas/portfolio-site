@@ -41,6 +41,22 @@ const Projects = () => {
                         </p>
                     </div>
                 </div>
+                <div className="project-card">
+                    <a href="https://christopherkalfas.github.io/gif-search-app/">
+                        <img src={require("../img/kalfigifs.png")} alt="kalfigifs" className="project-image" />
+                    </a>
+                    <div className="card-content">
+                        <h2 className="project-name">
+                            KalfiGifs
+                        </h2>
+                        <p className="project-desc">
+                            Gif Search Engine Web Application.
+                        </p>
+                        <p className="project-language">
+                            React - GIHPYAPI - GitHub Pages
+                        </p>
+                    </div>
+                </div>
                 
             </div>
         </div>
