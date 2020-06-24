@@ -3,12 +3,12 @@ import React from 'react'
 const Projects = () => {
     return(
         <div className="condiv">
-            <div className="project-header">
+            <div className="project-container">
+            <div className="featured-header">
                 <h1>
                     Technical Projects
                 </h1>
             </div>
-            <div className="project-container">
             <div className="project-card">
                     
                         <img src={require("../img/sweatclause.png")} alt="sweatclause"  className="project-image"/>
