@@ -14,7 +14,7 @@ class Skills extends Component {
         return (
             <div className="condiv skills">
                 <h1 className="subtopic">Development:</h1>
-                    <ul class="skills-ul">
+                    <ul className="skills-ul">
                         {this.state.development.map((value, index)=>{
                             return <li key={index}><h5><Skillscard name={value}/></h5></li>
                         })}
@@ -22,7 +22,7 @@ class Skills extends Component {
                     <br></br>
 
                     <h1 className="subtopic">Version Control & Developer Tools:</h1>
-                    <ul class="skills-ul">
+                    <ul className="skills-ul">
                         {this.state.versionControlDevTools.map((value, index)=>{
                             return <li key={index}><h5><Skillscard name={value}/></h5></li>
                         })}
