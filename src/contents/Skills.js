@@ -5,7 +5,7 @@ class Skills extends Component {
         super(props);
 
         this.state={
-            'development':['JavaSrcipt','Ruby','REACT','RAILS','SQL', "PostgreSQL",'HTML','CSS',"Bootstrap"],
+            'development':['JavaScript','Ruby','REACT','RAILS','SQL', "PostgreSQL",'HTML','CSS',"Bootstrap"],
             "versionControlDevTools": ["GitHub", "BASH", "YARN", "VS Code","Heroku","Firebase", "GitHub Pages", "Now", "Netlify"]
         };
     }
