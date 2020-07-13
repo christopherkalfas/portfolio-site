@@ -89,8 +89,8 @@ padding:60px 30px 0px 30px ;
 flex:var(--sidebar-flex);
 background-image: url(./img/blue-abstract.jpg);
 
-background-size: auto;
-background-position: right;
+background-repeat: repeat !important;
+background-size: contain !important;
 
 
 }
@@ -173,7 +173,7 @@ h1,h2,h3,h4,h5,p {
   margin-bottom: 5px;
   padding: 10px ;
   box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  
+  width: 100%;
   flex:var(--condiv-flex);
 }
 .resume-btns {

@@ -32,7 +32,7 @@ class Resume extends Component {
                         <button className="resume-btns" disabled={pageNumber >= numPages} onClick={this.goToNextPage}>Next</button>
                     </div>
 
-                    <div className="resume" style={{width: 1000 }}>
+                    <div className="resume" style={{width: 900}}>
                         <Document
                             file={resume}
                             onLoadSuccess={this.onDocumentLoadSuccess}

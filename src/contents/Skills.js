@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Skillscard from "../components/Skillscard"
+import Skillscard from "./Skillscard"
 class Skills extends Component {
     constructor(props) {
         super(props);
