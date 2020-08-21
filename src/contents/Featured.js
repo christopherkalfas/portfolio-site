@@ -47,6 +47,30 @@ const Featured = ()=> {
                         </p>
                     </div>
                 </div>
+
+                <div className="featured-card" style={{marginLeft: 6, marginTop: 8}}>
+                    <div className="featured-content">
+                    <h2 className="project-name">
+                        <a href="https://mystagram-client.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                            Mystagram
+                        </a>
+                    </h2>
+                        <p className="project-desc">
+                        Instagram meets Reddit. Mystagram allows users to add a mythical creature and up or down vote the creature based on popularity.
+                        </p>
+                        <p className="project-language">
+                            React - Open Trivia Database - Firebase
+                        </p>
+                        <p className="project-github">
+                            <a href="https://github.com/christopherkalfas/frontend-mystagram-rails-react-redux-client" target="_blank" rel="noopener noreferrer">GitHub Front</a>
+                            <a href="https://github.com/christopherkalfas/backend-mystagram-rails-react-redux-api" target="_blank" rel="noopener noreferrer">GitHub Back</a>
+
+                            <a href="https://mystagram-client.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                                Live App 
+                            </a>
+                        </p>
+                    </div>
+                </div>
         </div>
     )
 }

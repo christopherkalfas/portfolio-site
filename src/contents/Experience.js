@@ -9,6 +9,15 @@ const Experience = () => {
                 Experience
             </h1>
             <Jobcard
+                jobTitle= "Software Engineering Virtual Intern "
+                company = "JPMorgan Chase & Co."
+                location = "Online"
+                dates = "2020"
+                responsibility1="Established financial data feed using Python and Perspective (JPM’s data visualization software) to monitor correlated stocks"
+                responsibility2="Adjusted data feed’s UI using React.js, allowing traders flexibility when monitoring stock parameters"
+                
+            />
+            <Jobcard
                 jobTitle= "Sales Consultant"
                 company = "Power Home Remodeling Group"
                 location = "Norcross, GA"
