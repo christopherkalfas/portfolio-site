@@ -16,7 +16,7 @@ const Featured = ()=> {
                             Rails web app that allows users a fun way to donate to charity through fitness competitions with friends
                             </p>
                             <p className="project-language">
-                                Rails - bcrypt - Heroku
+                            Rails | bcrypt | CanCanCan | Heroku | Bootstrap
                             </p>
                             <p className="project-github">
                                 <a href="https://github.com/christopherkalfas/sweatclause422" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -37,7 +37,7 @@ const Featured = ()=> {
                             Trivia game with two modes of play. Random Play - allows users to answer questions from 24 different categories. Category Pick - allows user to answer questions from a topic of their choice. 
                         </p>
                         <p className="project-language">
-                            React - Open Trivia Database - Firebase
+                            React | Open Trivia Database | Firebase
                         </p>
                         <p className="project-github">
                             <a href="https://github.com/christopherkalfas/trivkalf" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -48,7 +48,7 @@ const Featured = ()=> {
                     </div>
                 </div>
 
-                <div className="featured-card" style={{marginLeft: 6, marginTop: 8}}>
+                <div className="featured-card" style={{marginLeft: 6, marginTop: 13}}>
                     <div className="featured-content">
                     <h2 className="project-name">
                         <a href="https://mystagram-client.herokuapp.com" target="_blank" rel="noopener noreferrer">
@@ -59,7 +59,7 @@ const Featured = ()=> {
                         Instagram meets Reddit. Mystagram allows users to add a mythical creature and up or down vote the creature based on popularity.
                         </p>
                         <p className="project-language">
-                            React - Open Trivia Database - Firebase
+                            Rails API | Thunk | React/Redux | Heroku | Bootstrap
                         </p>
                         <p className="project-github">
                             <a href="https://github.com/christopherkalfas/frontend-mystagram-rails-react-redux-client" target="_blank" rel="noopener noreferrer">GitHub Front</a>

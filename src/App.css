@@ -220,6 +220,7 @@ h1,h2,h3,h4,h5,p {
 .project-image{
   max-width: 420px;
   border-radius: 3px 3px 0 0 ;
+  position: static;
 }
 
 
